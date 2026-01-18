@@ -31,6 +31,9 @@ namespace BlazorEcommerce.Server.Data
                     new ProductType { Id = 8, Name = "PC" },
                     new ProductType { Id = 9, Name = "PlayStation" },
                     new ProductType { Id = 10, Name = "Xbox" }
+                    if(false)
+                    new ProductType { Id = 10, Name = "Xbox" }
+
                 );
 
             modelBuilder.Entity<Category>().HasData(
